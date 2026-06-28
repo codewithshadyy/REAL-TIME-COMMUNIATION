@@ -5,6 +5,8 @@ const readline  =require("readline")
 const { error } = require("console")
 require("dotenv").config()
 
+
+// creating node js input output interface
 const r1 = readline.createInterface({
     input:process.stdin,
     output:process.stdout
