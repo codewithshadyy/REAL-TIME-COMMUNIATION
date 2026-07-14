@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,12 @@
   },
   "homepage": "https://github.com/codewithshadyy/REAL-TIME-COMMUNIATION#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.7.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4",
     "nodemon": "^3.1.14",
     "ws": "^8.21.0"
   }
