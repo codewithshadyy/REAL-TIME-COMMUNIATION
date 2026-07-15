@@ -2,6 +2,8 @@ const webSocket = require("ws")
 require("dotenv").config()
 const wss = new webSocket.Server({port:process.env.PORT})
 
+
+
 console.log(`websocket server runing on ws://localhost:${process.env.PORT}`)
 
 // on connection
